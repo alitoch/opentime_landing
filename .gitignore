@@ -1,0 +1,37 @@
+# Compiled files
+*.min.css
+*.min.js
+*.min.html
+
+# Dependency directories
+/node_modules
+/bower_components
+/vendor
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build files
+/build
+/dist
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Ignore Jekyll cache
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Ignore the GitHub Pages build directory
+/_site/

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #1779FF;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#home .container {
+    padding: 50px 0;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#home button {
+    font-family: Montserrat, sans-serif;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#schedule,
+#pricing,
+#about,
+#support {
+    background: #fff;
+}
+
+#schedule img {
+    width: 50%;
+    height: 50%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.plan button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #1779FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#about .team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member p.title {
+    background-color: #1779FF;
+    color: white;
+}
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#about .contact-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about .contact-link:hover {
+    text-decoration: underline;
+}
